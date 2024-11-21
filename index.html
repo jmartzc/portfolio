@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio de Juan M. Martínez, desarrollador frontend en formación."
+    />
+    <meta name="author" content="Juan M. Martínez" />
+    <title>Juan M. Martínez - Portafolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <h1>Juan M. Martínez</h1>
+        <p>Desarrollador Frontend en Formación</p>
+        <nav>
+          <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- Sección Sobre mí -->
+      <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>
+          Hola, soy Juan M. Martínez, un desarrollador web apasionado por el
+          diseño de interfaces y la creación de experiencias de usuario
+          funcionales y atractivas. Actualmente, estoy en formación y
+          desarrollando mis habilidades en HTML, CSS, JavaScript, y frameworks
+          como React.
+        </p>
+      </section>
+
+      <!-- Sección Habilidades -->
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+          <li><i class="fab fa-html5"></i> HTML5</li>
+          <li><i class="fab fa-css3-alt"></i> CSS3</li>
+          <li><i class="fab fa-js"></i> JavaScript</li>
+          <li><i class="fab fa-react"></i> React</li>
+          <li><i class="fab fa-github"></i> Git & GitHub</li>
+        </ul>
+      </section>
+
+      <!-- Sección Proyectos -->
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+          <a href="https://github.com/jmartzc/proyecto1" target="_blank">
+            <h3>Página Web Personal</h3>
+            <p>
+              Este es un proyecto de página web personal que incluye una galería
+              de mis trabajos y habilidades.
+            </p>
+            <img src="img/proyecto1.PNG" alt="Proyecto 1" />
+          </a>
+        </div>
+        <div class="proyecto">
+          <a href="https://github.com/jmartzc/proyecto2" target="_blank">
+            <h3>Formulario</h3>
+            <p>
+              Este proyecto es un formulario de encuesta responsivo diseñado
+              para recopilar opiniones de usuarios de manera sencilla y
+              eficiente.
+            </p>
+            <img src="img/proyecto2.PNG" alt="Proyecto 2" />
+          </a>
+        </div>
+      </section>
+
+      <!-- Sección Contacto -->
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form
+          action="mailto:juanmanuelmartinezcorral@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+
+        <div class="redes-sociales">
+          <p>También puedes encontrarme en:</p>
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/juan-manuel-martinez-corral/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i> LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/jmartzc" target="_blank"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </li>
+            <li>
+                <a href="https://www.instagram.com/juanmc2_" target="_blank"
+                  ><i class="fab fa-instagram"></i> Instagram</a
+                >
+              </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Juan M. Martínez. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
