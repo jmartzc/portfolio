@@ -278,7 +278,8 @@ h2 {
   color: #14213d; /* Dark text color */
   font-weight: bold; /* Bold text */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Light shadow */
-  transition: transform 0.7s ease, box-shadow 0.7s ease, background-color 0.7s ease; /* Smooth transitions */
+  transition: transform 0.7s ease, box-shadow 0.7s ease,
+    background-color 0.7s ease; /* Smooth transitions */
 }
 
 /* Hover effect for project items */
