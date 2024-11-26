@@ -1,149 +1,234 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portafolio de Juan M. Martínez, desarrollador frontend en formación."
+      content="Juan Martínez - Web Developer specializing in frontend technologies. Creating functional and responsive websites with a focus on user experience."
     />
-    <meta name="author" content="Juan M. Martínez" />
-    <title>Juan M. Martínez - Portafolio</title>
+    <meta
+      name="keywords"
+      content="Juan Martínez, web developer, frontend, HTML, CSS, JavaScript, React, responsive websites, UX design"
+    />
+    <meta name="author" content="Juan Manuel Martínez Corral" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta property="og:title" content="Juan Martínez - Web Developer" />
+    <meta
+      property="og:description"
+      content="Juan Martínez - Web Developer specializing in frontend technologies."
+    />
+    <meta property="og:image" content="URL_de_imagen_de_cobertura" />
+    <meta property="og:url" content="URL_de_tu_página" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Juan Martínez - Web Developer" />
+    <meta
+      name="twitter:description"
+      content="Juan Martínez - Web Developer specializing in frontend technologies."
+    />
+    <meta name="twitter:image" content="URL_de_imagen_de_cobertura" />
+    <title>Juan Martínez</title>
     <link rel="stylesheet" href="styles.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Lora&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
   </head>
-
-  <body>
+  <body id="top">
     <header>
-      <div class="container">
-        <h1>Juan M. Martínez</h1>
-        <p>Desarrollador Frontend en Formación</p>
-        <nav>
-          <ul>
-            <li><a href="#sobre-mi">Sobre mí</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-          </ul>
-        </nav>
+      <div class="logo-container">
+        <div class="logo">Juan Martínez</div>
+        <div class="social-links">
+          <a href="https://github.com/jmartzc" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/juan-manuel-martinez-corral"
+            target="_blank"
+            title="LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://twitter.com/jmartzcr"
+            target="_blank"
+            title="Twitter"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/juanmc2_"
+            target="_blank"
+            title="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
       </div>
+      <ul class="menu">
+        <li><a href="#top">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+        <a href="cv/CV Juan M. Martinez Corral.pdf" target="_blank"
+          ><li class="resume">See CV</li></a
+        >
+      </ul>
     </header>
-
-    <main class="container">
-      <!-- Sección Sobre mí -->
-      <section id="sobre-mi">
-        <h2>Sobre mí</h2>
+    <main>
+      <section class="hero">
+        <h1>Hi I'm <span>Juan Martínez</span>.</h1>
         <p>
-          Hola, soy Juan M. Martínez, un desarrollador web apasionado por el
-          diseño de interfaces y la creación de experiencias de usuario
-          funcionales y atractivas. Actualmente, estoy en formación y
-          desarrollando mis habilidades en HTML, CSS, JavaScript, y frameworks
-          como React.
+          I'm a web developer specialized in creating functional and responsive
+          websites, focusing on an optimal user experience.
         </p>
+        <div id="about" class="more-about">
+          <img id="img-me" src="img/IMG_4721.jpg" />
+          <p>
+            I'm a passionate web developer currently studying Web Application
+            Development, with a focus on frontend technologies as I work towards
+            becoming a full-stack developer. I am always learning new tools like
+            HTML, CSS, JavaScript, and React to stay ahead in the field.
+            <br /><br />Alongside my studies, I actively work on personal
+            projects. My goal is to build efficient, scalable, and user-friendly
+            applications that solve real-world problems while continuously
+            improving my skills and staying up to date with industry trends.
+          </p>
+        </div>
       </section>
-
-      <!-- Sección Habilidades -->
-      <section id="habilidades">
-        <h2>Habilidades</h2>
+      <section id="skills" class="skills">
+        <h2>Skills</h2>
         <ul>
           <li><i class="fab fa-html5"></i> HTML5</li>
-          <li><i class="fab fa-css3-alt"></i> CSS3</li>
+          <li><i class="fab fa-css3"></i> CSS3</li>
           <li><i class="fab fa-js"></i> JavaScript</li>
           <li><i class="fab fa-react"></i> React</li>
-          <li><i class="fab fa-github"></i> Git & GitHub</li>
         </ul>
       </section>
+      <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+          <!-- Project 1 -->
+          <div class="project">
+            <img
+              class="project-img"
+              src="img/proyecto1.PNG"
+              alt="Proyect 1 screenshot"
+            />
+            <div class="project-info">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
+                provident ratione possimus rerum dolore pariatur tempore, sint
+                ad dolorum fugit, cum soluta nostrum tempora consequuntur
+                assumenda, id ipsam similique repudiandae.
+              </p>
+              <div class="links-tech">
+                <div class="project-links">
+                  <a
+                    href="https://jmartzc.github.io/SurveyForm/"
+                    target="_blank"
+                    >View Live</a
+                  >
+                  |
+                  <a
+                    href="https://github.com/jmartzc/SurveyForm"
+                    target="_blank"
+                    >Code on GitHub</a
+                  >
+                </div>
+                <div class="project-tech">
+                  <i class="fab fa-html5"></i>
+                  <i class="fab fa-css3"></i>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <!-- Sección Proyectos -->
-      <section id="proyectos">
-        <h2>Proyectos</h2>
-        <div class="proyecto">
-          <a href="https://github.com/jmartzc/portfolio" target="_blank">
-            <h3>Página Web Personal</h3>
-            <p>
-              Este es un proyecto de página web personal que incluye una galería
-              de mis trabajos y habilidades.
-            </p>
-            <img src="img/proyecto1.PNG" alt="Proyecto 1" />
-          </a>
-        </div>
-        <div class="proyecto">
-          <a href="https://github.com/jmartzc/surveyform" target="_blank">
-            <h3>Formulario</h3>
-            <p>
-              Este proyecto es un formulario de encuesta responsivo diseñado
-              para recopilar opiniones de usuarios de manera sencilla y
-              eficiente.
-            </p>
-            <img src="img/proyecto2.PNG" alt="Proyecto 2" />
-          </a>
-        </div>
-        <div class="proyecto">
-          <a href="https://github.com/jmartzc/galeria" target="_blank">
-            <h3>Galería de Imágenes</h3>
-            <p>
-              Este proyecto es una galería de imágenes responsiva, diseñada para
-              mostrar fotografías de manera organizada y visualmente atractiva.
-            </p>
-            <img src="img/proyecto3.PNG" alt="Proyecto 3" />
-          </a>
+          <!-- Project 2 -->
+          <div class="project">
+            <img
+              class="project-img"
+              src="img/proyecto2.PNG"
+              alt="Proyect 2 screenshot"
+            />
+            <div class="project-info">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
+                provident ratione possimus rerum dolore pariatur tempore, sint
+                ad dolorum fugit, cum soluta nostrum tempora consequuntur
+                assumenda, id ipsam similique repudiandae.
+              </p>
+              <div class="links-tech">
+                <div class="project-links">
+                  <a href="https://jmartzc.github.io/galeria/" target="_blank"
+                    >View Live</a
+                  >
+                  |
+                  <a href="https://github.com/jmartzc/galeria" target="_blank"
+                    >Code on GitHub</a
+                  >
+                </div>
+                <div class="project-tech">
+                  <i class="fab fa-html5"></i>
+                  <i class="fab fa-css3"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project">
+            <img
+              class="project-img"
+              src="img/25515.jpg"
+              alt="Proyect 1 screenshot"
+            />
+            <div class="project-info">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
+                provident ratione possimus rerum dolore pariatur tempore, sint
+                ad dolorum fugit, cum soluta nostrum tempora consequuntur
+                assumenda, id ipsam similique repudiandae.
+              </p>
+              <div class="links-tech">
+                <div class="project-links">
+                  <a href="#" target="_blank">View Live</a> |
+                  <a href="#" target="_blank">Code on GitHub</a>
+                </div>
+                <div class="project-tech">
+                  <i class="fab fa-html5"></i>
+                  <i class="fab fa-css3"></i>
+                  <i class="fab fa-js"></i>
+                  <i class="fab fa-react"></i>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-
-      <!-- Sección Contacto -->
-      <section id="contacto">
-        <h2>Contacto</h2>
-        <form
-          action="mailto:juanmanuelmartinezcorral@gmail.com"
-          method="post"
-          enctype="text/plain"
+      <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>
+          I'm always open to new projects, creative ideas, or opportunities to
+          be part of your vision. Don't hesitate to get in touch!
+        </p>
+        <a
+          href="mailto:juanmanuelmartinezcorral@gmail.com"
+          class="contact-button"
+          >Say Hello</a
         >
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" required />
-
-          <label for="email">Correo electrónico:</label>
-          <input type="email" id="email" name="email" required />
-
-          <label for="mensaje">Mensaje:</label>
-          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-
-          <button type="submit">Enviar</button>
-        </form>
-
-        <div class="redes-sociales">
-          <p>También puedes encontrarme en:</p>
-          <ul>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/juan-manuel-martinez-corral/"
-                target="_blank"
-                ><i class="fab fa-linkedin"></i> LinkedIn</a
-              >
-            </li>
-            <li>
-              <a href="https://github.com/jmartzc" target="_blank"
-                ><i class="fab fa-github"></i> GitHub</a
-              >
-            </li>
-            <li>
-                <a href="https://www.instagram.com/juanmc2_" target="_blank"
-                  ><i class="fab fa-instagram"></i> Instagram</a
-                >
-              </li>
-          </ul>
-        </div>
       </section>
     </main>
-
-    <footer>
-      <p>&copy; 2024 Juan M. Martínez. Todos los derechos reservados.</p>
+    <footer class="footer">
+      <p>&copy; 2024 Juan Martínez. All rights reserved.</p>
     </footer>
   </body>
 </html>
