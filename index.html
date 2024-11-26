@@ -22,6 +22,7 @@
       name="twitter:description"
       content="Juan Martínez - Web Developer specializing in frontend technologies."
     />
+    <meta name="twitter:image" content="URL_de_imagen_de_cobertura" />
     <title>Juan Martínez</title>
     <link rel="stylesheet" href="styles.css" />
     <link
@@ -100,7 +101,7 @@
           websites, focusing on an optimal user experience.
         </p>
         <div id="about" class="more-about">
-          <img id="img-me" src="img/IMG_2858.jpg" />
+          <img id="img-me" src="img/IMG_2858.jpg" alt="A picture of Me" />
           <p>
             I'm a passionate web developer currently studying Web Application
             Development, with a focus on frontend technologies as I work towards
@@ -118,13 +119,18 @@
         <ul>
           <li><i class="fab fa-html5"></i> HTML5</li>
           <li><i class="fab fa-css3"></i> CSS3</li>
-          <li><i class="fab fa-js"></i> JavaScript</li>
-          <li><i class="fab fa-react"></i> React</li>
-          
+          <li>
+            <i class="fab fa-js"></i> JavaScript
+            <span class="learning">(Learning)</span>
+          </li>
+          <li>
+            <i class="fab fa-react"></i> React
+            <span class="learning">(Learning)</span>
+          </li>
         </ul>
       </section>
       <section id="projects" class="projects">
-        <h2>Projects</h2>
+        <h2>My Work</h2>
         <div class="project-list">
           <!-- Project 1 -->
           <div class="project">
@@ -134,6 +140,7 @@
               alt="Proyect 1 screenshot"
             />
             <div class="project-info">
+              <h3>CarConnect Survey Form</h3>
               <p>
                 This project is a survey form built with HTML5 and CSS3,
                 designed to collect user feedback efficiently. It features a
@@ -171,6 +178,7 @@
               alt="Proyect 2 screenshot"
             />
             <div class="project-info">
+              <h3>Image Gallery</h3>
               <p>
                 This project showcases a car photo gallery built with HTML5 and
                 CSS3. It features a clean and organized layout, displaying
@@ -203,9 +211,8 @@
               alt="Proyect 1 screenshot"
             />
             <div class="project-info">
-              <p>
-                Coming Soon.
-              </p>
+              <h3>Coming Soon</h3>
+              <p>Coming Soon.</p>
               <div class="links-tech">
                 <div class="project-links">
                   <a href="#" target="_blank">View Live</a> |
@@ -229,9 +236,8 @@
               alt="Proyect 1 screenshot"
             />
             <div class="project-info">
-              <p>
-                Coming Soon.
-              </p>
+              <h3>Coming Soon</h3>
+              <p>Coming Soon.</p>
               <div class="links-tech">
                 <div class="project-links">
                   <a href="#" target="_blank">View Live</a> |
@@ -246,7 +252,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </section>
       <section id="contact" class="contact">
