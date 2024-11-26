@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: "Inter", sans-serif;
   background-color: #14213d;
-  color: #ffffff;
+  color: #e5e5e5;
 }
 
 header {
@@ -10,7 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: #14213d;
+  background-color: #e5e5e5;
   border-bottom: 5px solid #fca311;
   position: sticky;
   top: 0;
@@ -19,15 +19,15 @@ header {
 
 .logo-container {
   display: flex;
-  flex-direction: column; /* Coloca los elementos (logo y redes sociales) en columna */
-  align-items: center; /* Centra los elementos horizontalmente */
-  gap: 10px; /* Espacio entre el logo y las redes sociales */
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .logo {
   font-size: 30px;
   font-weight: bold;
-  color: #fca311;
+  color: #14213d;
 }
 
 .social-links {
@@ -37,21 +37,21 @@ header {
 }
 
 .social-links a {
-  font-size: 1.5rem; /* Tamaño de los iconos */
-  color: #ccd6f6;
-  transition: color 0.7s ease;
+  font-size: 1.5rem;
+  color: #fca311;
+  transition: color 0.5s ease;
 }
 
 .social-links a:hover {
-  color: #fca311;
+  color: #14213d;
 }
 
 .social-links a i {
-  transition: transform 0.7s ease;
+  transition: transform 0.5s ease;
 }
 
 .social-links a:hover i {
-  transform: scale(1.2); /* Efecto de aumentar el tamaño en hover */
+  transform: scale(1.2);
 }
 
 .menu {
@@ -65,7 +65,7 @@ header {
 
 .menu a {
   text-decoration: none;
-  color: #e5e5e5;
+  color: #14213d;
   font-weight: bold;
 }
 
@@ -75,7 +75,7 @@ header {
 }
 
 .resume {
-  background-color: #ffffff;
+  background-color: #fca311;
   color: #14213d;
   border-radius: 8px;
   font-weight: bold;
@@ -93,7 +93,8 @@ header {
 }
 
 .resume:hover {
-  background-color: #fca311;
+  background-color: #14213d;
+  color: #fca311;
 }
 
 .hero {
@@ -133,8 +134,8 @@ header {
 .more-about {
   display: flex;
   justify-content: center;
-  align-items: center; /* Centra verticalmente el contenido */
-  position: relative; /* Necesario para manejar el texto con hover */
+  align-items: center;
+  position: relative;
   overflow: hidden;
   background-color: transparent;
   transition: background-color 0.7s ease;
@@ -152,10 +153,10 @@ header {
   left: 100%;
   padding: 15px;
   margin: 10px;
-  opacity: 0; /* Inicialmente invisible */
+  opacity: 0;
   border-radius: 8px;
-  transition: opacity 1s ease, left 1s ease, background-color 0.7s ease; /* Animación suave en hover */
-  background-color: #ffffff;
+  transition: opacity 1s ease, left 1s ease, background-color 0.7s ease;
+  background-color: #e5e5e5;
   height: 94%;
 }
 
@@ -164,7 +165,7 @@ header {
 }
 
 .more-about:hover p {
-  opacity: 1; /* Hace visible el texto al pasar el cursor */
+  opacity: 1;
   left: 50%;
   color: #14213d;
   font-weight: bold;
@@ -184,7 +185,7 @@ header {
 h2 {
   text-align: center;
   font-size: 2.5rem;
-  color: #ffffff;
+  color: #e5e5e5;
 }
 
 .skills ul {
@@ -195,7 +196,7 @@ h2 {
 }
 
 .skills li {
-  background-color: #ffffff;
+  background-color: #e5e5e5;
   color: #14213d;
   border-radius: 8px;
   font-size: 1.5rem;
@@ -222,7 +223,7 @@ h2 {
 
 .project {
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color: #e5e5e5;
   color: #14213d;
   font-weight: bold;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -259,7 +260,7 @@ h2 {
 }
 
 .project-info a:hover {
-  color: #ffffff;
+  color: #e5e5e5;
 }
 
 .links-tech {
@@ -277,7 +278,7 @@ h2 {
 }
 
 .project-tech i:hover {
-  color: #ffffff;
+  color: #e5e5e5;
 }
 
 .contact {
@@ -321,4 +322,3 @@ h2 {
   font-size: 1rem;
   margin-bottom: 10px;
 }
-
