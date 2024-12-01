@@ -378,6 +378,7 @@ h2 {
   text-decoration: none; /* Remove underline */
   transition: all 0.7s ease; /* Smooth transition */
   font-weight: bold; /* Bold font */
+  margin-bottom: 40px;
 }
 
 /* Hover effect for contact button */
